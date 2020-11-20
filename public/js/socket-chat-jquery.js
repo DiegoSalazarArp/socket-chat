@@ -55,7 +55,7 @@ function renderizarMensajes(mensaje, yo) {
         html += '        <div class="box bg-light-inverse">' + mensaje.mensaje + '</div>'
         html += '    </div>'
         html += '    <div class="chat-img"><img src="assets/images/users/5.jpg" alt="user" /></div>'
-        html += '    <div class="chat-time">' + hora + '/div>'
+        html += '    <div class="chat-time">' + hora + '</div>'
         html += '</li>'
     } else {
         html += '<li class="animated fadeIn">'
